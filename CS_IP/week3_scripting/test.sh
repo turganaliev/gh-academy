@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /Users/study/Desktop/GHAcademy/CS_IP/week3_scripting/
+cd /Users/study/Desktop/GHAcademy/CS_IP/
 
 git checkout master
 
