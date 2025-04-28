@@ -1,3 +1,5 @@
+package W10;
+
 class Solution {
     public int maxProfit(int[] prices) {
         int lowest_price_so_far = prices[0];

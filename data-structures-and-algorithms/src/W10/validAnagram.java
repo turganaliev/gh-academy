@@ -1,3 +1,5 @@
+package W10;
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         char[] s_array = s.toCharArray();

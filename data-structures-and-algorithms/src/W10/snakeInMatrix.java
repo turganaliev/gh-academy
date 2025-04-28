@@ -1,3 +1,5 @@
+package W10;
+
 class Solution {
     public int finalPositionOfSnake(int n, List<String> commands) {
         int ans = 0;
