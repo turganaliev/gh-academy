@@ -9,6 +9,7 @@ for i in range(10):
 
     if guess == num:
         print("Correct!")
+        break
     elif guess > num:
         print("too high")
     else:
