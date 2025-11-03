@@ -11,4 +11,4 @@ def word_counter(sentence):
     
     return res
 
-print(word_counter("I love coding coding and coding"))
+print(word_counter("I have to practice reading over and over and over again."))
