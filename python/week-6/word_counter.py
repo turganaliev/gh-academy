@@ -1,5 +1,8 @@
+import re
+
 def word_counter(sentence):
-    words_list = sentence.split(" ")
+    clean_sentence = re.sub(r'[^\w\s]', '', sentence)
+    words_list = clean_sentence.split(" ")
 
     res = {}
 
@@ -11,4 +14,7 @@ def word_counter(sentence):
     
     return res
 
-print(word_counter("I have to practice reading over and over and over again."))
+if __name__ == '__main__':
+    print("Please enter your sentence: ")
+    input_sentence = input()
+    print(word_counter(input_sentence))
