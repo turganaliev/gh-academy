@@ -1,0 +1,8 @@
+These are the commands i used to:
+
+- create a folder / mkdir computer-systems-and-programming/W1
+- create a file / touch first.txt
+- open a website and copy it's content into a first.txt file / curl <your-website.com> > first.txt
+- leave just text and get rid of the other stuff and save to new file / curl -s <your-website.com> | sed 's/<[^>]*>//g' text_only.txt
+- to replace the ocurrences of some word and save it as a new file / cp text_only.txt word_replaced.txt / sed -i '' 's/<old-word>/<new-word>/g' word_replaced.txt
+

@@ -1,0 +1,33 @@
+
+
+
+    
+    
+    Work Application Tracker
+    
+
+
+    
+        Work Application Tracker
+
+        Add New Application
+        
+            
+            
+            
+                Applied
+                Interviewing
+                Offer
+                Hired
+                Rejected
+            
+            
+            Add Work
+        
+
+        
+
+        Current Applications
+        
+    
+
