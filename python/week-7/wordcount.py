@@ -15,7 +15,7 @@ def get_clean_text(text):
         words_list = clean_text.split(" ")
         return words_list
 
-def print_words(text):
+def get_word_counts(text):
     res = {}
     txt = get_clean_text(text)
 
@@ -24,30 +24,23 @@ def print_words(text):
             res[i] += 1
         elif i != '':
             res[i] = 1
+    
+    return res
+
+def print_words(text):
+    res = get_word_counts(text)
 
     for key, value in sorted(res.items()):
         print(f'{key}: {value}')
 
 
 def print_top(text):
-    res = {}
-    txt = get_clean_text(text)
-
-    for i in txt:
-        if i in res and i != '':
-            res[i] += 1
-        elif i != '':
-            res[i] = 1
+    res = get_word_counts(text)
 
     sorted_res = sorted(res.items(), key=lambda item: item[1], reverse=True)
 
-    res_length = len(sorted_res)
-    if res_length < 20:
-        for i in range(res_length):
-           print(sorted_res[i])
-    else:
-        for i in range(20):
-           print(sorted_res[i])
+    for item in sorted_res[:20]:
+        print(item)
 
 
 def main():
