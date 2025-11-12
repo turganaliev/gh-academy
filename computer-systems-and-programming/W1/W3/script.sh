@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_DIR="/Users/izat/Documents/code/gh-academy/python"
+REPO_DIR="/Users/izat/Documents/code/gh-academy/computer-systems-and-industrial-programming/W3"
 
 if ! command -v fswatch &> /dev/null; then
     echo "ERROR: 'fswatch' is not found. Please install via 'brew install fswatch'."
