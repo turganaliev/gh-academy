@@ -134,3 +134,98 @@ To https://github.com/turganaliev/gh-academy.git
    dd8866b..69a04ff  main -> main
 Successfully pushed: Auto-update: sample.txt
 Change detected in: /Users/izat/Documents/code/gh-academy/python/.gitignore at 20:13:23
+diff --git a/python/.gitignore b/python/.gitignore
+new file mode 100644
+index 0000000..e69de29
+diff --git a/python/nohup.out b/python/nohup.out
+index adf8ffa..5bb4e8a 100644
+--- a/python/nohup.out
++++ b/python/nohup.out
+@@ -57,3 +57,80 @@ To https://github.com/turganaliev/gh-academy.git
+    6c44a6b..dd8866b  main -> main
+ Successfully pushed: Auto-update: sample.txt
+ Change detected in: /Users/izat/Documents/code/gh-academy/python/sample.txt at 20:11:25
++diff --git a/python/nohup.out b/python/nohup.out
++index c32a6c9..adf8ffa 100644
++--- a/python/nohup.out
+++++ b/python/nohup.out
++@@ -1,2 +1,59 @@
++ --- Starting real-time file monitoring on /Users/izat/Documents/code/gh-academy/python ---
++ Change detected in: /Users/izat/Documents/code/gh-academy/python/sample.txt at 20:11:04
+++diff --git a/python/nohup.out b/python/nohup.out
+++new file mode 100644
+++index 0000000..c32a6c9
+++--- /dev/null
++++++ b/python/nohup.out
+++@@ -0,0 +1,2 @@
++++--- Starting real-time file monitoring on /Users/izat/Documents/code/gh-academy/python ---
++++Change detected in: /Users/izat/Documents/code/gh-academy/python/sample.txt at 20:11:04
+++diff --git a/python/sample.txt b/python/sample.txt
+++new file mode 100644
+++index 0000000..e69de29
+++diff --git a/python/script.sh b/python/script.sh
+++new file mode 100755
+++index 0000000..a1c2939
+++--- /dev/null
++++++ b/python/script.sh
+++@@ -0,0 +1,31 @@
++++#!/bin/bash
++++
++++REPO_DIR="/Users/izat/Documents/code/gh-academy/python"
++++
++++if ! command -v fswatch &> /dev/null; then
++++    echo "ERROR: 'fswatch' is not found. Please install via 'brew install fswatch'."
++++    exit 1
++++fi
++++
++++echo "--- Starting real-time file monitoring on $REPO_DIR ---"
++++
++++fswatch -r -l 0.5 "$REPO_DIR" |
++++while read FILE_PATH
++++do
++++    echo "Change detected in: $FILE_PATH at $(date +%H:%M:%S)"
++++    
++++    cd "$REPO_DIR"
++++    
++++    git add .
++++    
++++    if git diff --cached --exit-code; then
++++        echo "No new commit needed."
++++    else
++++        COMMIT_MSG="Auto-update: $(basename "$FILE_PATH")"
++++        git commit -m "$COMMIT_MSG"
++++        git push origin main
++++        echo "Successfully pushed: $COMMIT_MSG"
++++    fi
++++    
++++    sleep 1
++++done
+++[main dd8866b] Auto-update: sample.txt
+++ 3 files changed, 33 insertions(+)
+++ create mode 100644 python/nohup.out
+++ create mode 100644 python/sample.txt
+++ create mode 100755 python/script.sh
+++To https://github.com/turganaliev/gh-academy.git
+++   6c44a6b..dd8866b  main -> main
+++Successfully pushed: Auto-update: sample.txt
+++Change detected in: /Users/izat/Documents/code/gh-academy/python/sample.txt at 20:11:25
++diff --git a/python/sample.txt b/python/sample.txt
++index e69de29..c57eff5 100644
++--- a/python/sample.txt
+++++ b/python/sample.txt
++@@ -0,0 +1 @@
+++Hello World!
++\ No newline at end of file
++[main 69a04ff] Auto-update: sample.txt
++ 2 files changed, 58 insertions(+)
++To https://github.com/turganaliev/gh-academy.git
++   dd8866b..69a04ff  main -> main
++Successfully pushed: Auto-update: sample.txt
++Change detected in: /Users/izat/Documents/code/gh-academy/python/.gitignore at 20:13:23
+[main f4a81a3] Auto-update: .gitignore
+ 2 files changed, 77 insertions(+)
+ create mode 100644 python/.gitignore
+To https://github.com/turganaliev/gh-academy.git
+   69a04ff..f4a81a3  main -> main
+Successfully pushed: Auto-update: .gitignore
+Change detected in: /Users/izat/Documents/code/gh-academy/python/.gitignore at 20:13:42
