@@ -4,3 +4,4 @@ workspace.xml
 .env
 *.pyc
 .vscode/
+.exe
