@@ -11,5 +11,4 @@ __pycache__/
 
 .vscode/
 .idea/
-
-~*
+*.iml
