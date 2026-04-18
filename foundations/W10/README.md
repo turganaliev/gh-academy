@@ -11,8 +11,8 @@ Status colors list:
 Problems (in lexicographical order) – status:
 
 - 🟢 [LC] Best Time to Buy and Sell Stock
-- 🟢 [LC] Valid Anagram
 - 🟢 [LC] Number of 1 Bits
-- 🟢 [LC] Single Number
 - 🟢 [LC] Reverse String
+- 🟢 [LC] Single Number
 - 🟢 [LC] Snake in Matrix
+- 🟢 [LC] Valid Anagram
