@@ -12,9 +12,9 @@ Problems (in lexicographical order) – status:
 
 - 🟢 [LC] Merge Sorted Array
 - 🔴 [LC] Range Sum Query - Immutable
-- 🔴 [LC] Rotate Array
+- 🟢 [LC] Rotate Array
 - 🟢 [LC] Sort Array by Parity II
-- 🔴 [LC] Sort Colors
+- 🟡 [LC] Sort Colors
 
 ## Recommended Homework
 
