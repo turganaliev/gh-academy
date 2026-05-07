@@ -11,7 +11,7 @@ Status colors list:
 Problems (in lexicographical order) – status:
 
 - 🟢 [LC] Merge Sorted Array
-- 🟡 [LC] Range Sum Query - Immutable
+- 🟢 [LC] Range Sum Query - Immutable
 - 🟢 [LC] Rotate Array
 - 🟢 [LC] Sort Array by Parity II
 - 🟢 [LC] Sort Colors
@@ -20,4 +20,4 @@ Problems (in lexicographical order) – status:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] Range Sum Query 2D - Immutable
+- 🟡 [LC] Range Sum Query 2D - Immutable
