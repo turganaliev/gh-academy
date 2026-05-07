@@ -20,4 +20,4 @@ Problems (in lexicographical order) – status:
 
 Problems (in lexicographical order) – status:
 
-- 🟡 [LC] Range Sum Query 2D - Immutable
+- 🟢 [LC] Range Sum Query 2D - Immutable
