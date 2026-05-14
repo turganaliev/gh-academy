@@ -19,4 +19,4 @@ Problems (in lexicographical order) – status:
 
 Problems (in lexicographical order) – status:
 
-- 🟡 [LC] Increment Submatrices by One
+- 🟢 [LC] Increment Submatrices by One
