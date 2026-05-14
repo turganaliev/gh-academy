@@ -13,7 +13,7 @@ Problems (in lexicographical order) – status:
 - 🟢 [LC] Linked List Cycle
 - 🟢 [LC] Linked List Cycle II
 - 🟢 [LC] Range Addition
-- 🟡 [LC] Sliding Window Maximum
+- 🟢 [LC] Sliding Window Maximum
 
 ## Recommended Homework
 
