@@ -10,7 +10,7 @@ Status colors list:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] A Very Easy Problem
+- 🔴 [Informatics] A Very Easy Problem
 - 🔴 [LC] Capacity To Ship Packages Within D Days
 - 🔴 [LC] Find Minimum In Rotated Sorted Array
 - 🟢 [LC] First Bad Version
