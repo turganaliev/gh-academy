@@ -20,4 +20,4 @@ Problems (in lexicographical order) – status:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] Kth Smallest Number in Multiplication Table
+- 🟢 [LC] Kth Smallest Number in Multiplication Table
