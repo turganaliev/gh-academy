@@ -12,6 +12,6 @@ Problems (in lexicographical order) – status:
 
 - 🟢 [LC] Group Anagrams
 - 🟢 [LC] Longest Consecutive Sequence
-- 🟡 [LC] Subarray Sum Equals K
+- 🟢 [LC] Subarray Sum Equals K
 - 🟢 [LC] Top K Frequent Elements
 - 🟢 [LC] Two Sum
