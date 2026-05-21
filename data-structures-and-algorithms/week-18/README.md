@@ -10,7 +10,7 @@ Status colors list:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] Container With Most Water 
+- 🟢 [LC] Container With Most Water 
 - 🟢 [LC] Move Zeroes
 - 🟢 [LC] String Compression
 - 🟢 [LC] Two Sum II - Input Array Is Sorted
