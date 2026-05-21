@@ -12,7 +12,7 @@ Problems (in lexicographical order) – status:
 
 - 🔴 [LC] Container With Most Water 
 - 🟢 [LC] Move Zeroes
-- 🔴 [LC] String Compression
+- 🟢 [LC] String Compression
 - 🟢 [LC] Two Sum II - Input Array Is Sorted
 
 ## Recommended Homework
