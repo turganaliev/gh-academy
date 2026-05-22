@@ -19,4 +19,4 @@ Problems (in lexicographical order) – status:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] Trapping Rain Water
+- 🟢 [LC] Trapping Rain Water
