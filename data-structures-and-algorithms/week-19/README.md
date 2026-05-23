@@ -14,5 +14,5 @@ Problems (in lexicographical order) – status:
 - 🟢 [LC] Fibonacci Number
 - 🔴 [LC] Permutations
 - 🟢 [LC] Pow(x, n)
-- 🔴 [Informatics] Task conditions
-- 🟡 [Informatics] Towers of Hanoi
+- 🟡 [Informatics] Task conditions
+- 🟢 [Informatics] Towers of Hanoi
