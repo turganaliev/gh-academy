@@ -13,6 +13,6 @@ Problems (in lexicographical order) – status:
 - 🔴 [LC] Combinations
 - 🟢 [LC] Fibonacci Number
 - 🔴 [LC] Permutations
-- 🟡 [LC] Pow(x, n)
+- 🟢 [LC] Pow(x, n)
 - 🔴 [Informatics] Task conditions
-- 🔴 [Informatics] Towers of Hanoi
+- 🟡 [Informatics] Towers of Hanoi
