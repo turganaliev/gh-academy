@@ -10,7 +10,7 @@ Status colors list:
 
 Problems (in lexicographical order) – status:
 
-- 🔴 [LC] Combinations
+- 🟢 [LC] Combinations
 - 🟢 [LC] Fibonacci Number
 - 🟢 [LC] Permutations
 - 🟢 [LC] Pow(x, n)
