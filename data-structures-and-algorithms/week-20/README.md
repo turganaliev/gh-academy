@@ -11,9 +11,9 @@ Status colors list:
 Problems (in lexicographical order) – status:
 
 - 🟢 [LC] Generate Parentheses
-- 🔴 [LC] N Queens
+- 🟡 [LC] N Queens
 - 🔴 [LC] Partition Equal Subset Sum
-- 🔴 [LC] Sudoku Solver
+- 🟢 [LC] Sudoku Solver
 
 ## Recommended Homework
 
