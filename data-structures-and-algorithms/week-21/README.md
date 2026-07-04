@@ -12,7 +12,7 @@ Problems (in lexicographical order) – status:
 
 - 🔴 [LC] Add Two Numbers
 - 🔴 [LC] Design Browser History
-- 🟡 [LC] Merge Two Sorted Lists
+- 🟢 [LC] Merge Two Sorted Lists
 - 🔴 [LC] Remove Nth Node From End of List
 - 🟢 [LC] Reverse Linked List
-- 🔴 [LC] Reverse Linked List II
+- 🟡 [LC] Reverse Linked List II
