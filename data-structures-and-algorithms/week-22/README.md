@@ -11,8 +11,8 @@ Status colors list:
 Problems (in lexicographical order) – status:
 
 - 🔴 [LC] Daily Temperatures
-- 🟡 [LC] Evaluate Reverse Polish Notation
+- 🟢 [LC] Evaluate Reverse Polish Notation
 - 🔴 [LC] Largest Rectangle in Histogram
 - 🔴 [LC] Min Stack
-- 🔴 [eolymp] Rails
+- 🟡 [eolymp] Rails
 - 🟢 [LC] Valid Parentheses
